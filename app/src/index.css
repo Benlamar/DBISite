@@ -1,0 +1,29 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap"); */
+@font-face { 
+  font-family: 'Poppins';
+  src: url('../public/font/Poppins-Medium.woff') format('woff');
+  }
+:root {
+  --backgroud-dark: #294a70;;
+  
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  position: relative;
+  /* background: linear-gradient(180deg, #ffffff, #f8f4f4,#ededf5);
+  padding-bottom: 10px; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

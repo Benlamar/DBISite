@@ -1,0 +1,58 @@
+nav#navbar {
+  height: 70px;
+  /* background-color: var(--backgroud-dark); */
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  color: black;
+
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+}
+
+.scrolled_navbar {
+  background-color: #294a70;
+}
+
+#brand_name {
+  color: inherit;
+  margin-left: 48px;
+  font-weight: 900;
+  font-size: 1.4rem;
+  margin-right: auto;
+}
+
+.menu {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu li {
+  color: white;
+  padding: 4;
+}
+
+.menu li:hover {
+  background-color: azure;
+  color: black;
+  border-radius: 40px;
+}
+
+.menu li a {
+  margin: 0 10px;
+
+  color: inherit;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 18px;
+}
+

@@ -1,0 +1,8 @@
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--backgroud-dark);
+    color:white;    
+    transform: translateY(120px);
+}

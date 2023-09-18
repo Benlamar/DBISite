@@ -1,0 +1,145 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  margin: 8px 48px;
+}
+
+.c-btn {
+  background-color: rgb(70, 248, 138);
+  color: rgb(0 0 0);
+  /* width: 140px; */
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  box-shadow: 0px 0px 2px 1px #0000006e;
+  border-radius: 4px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.sub-title {
+  font-weight: 700;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.form-title {
+  margin: 2px 8px;
+  color: crimson;
+  text-decoration: underline;
+}
+
+.form-section {
+  border: 1px solid rgb(173, 173, 173);
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 15px;
+}
+
+.form-row {
+  font-size: large;
+  margin: 8px 0;
+}
+
+.form-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: auto;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+#avatar {
+  width: 18rem;
+}
+
+.form-item label {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.inp {
+  font-size: large;
+  margin: 0 8px;
+  font-family: inherit;
+  border: 1px solid #efeff2;
+  padding: 4px;
+  background-color: #efeff2;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px #b9b9b9;
+}
+
+.inp-group {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  accent-color: crimson;
+  width: 18px;
+  height: 18px;
+  margin: 4px;
+}
+
+.err {
+  background-color: rgb(241 255 178);
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  grid-template-columns: 1fr;
+  row-gap: 2px;
+}
+
+.err-msg {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 1px 4px;
+}
+
+.text-area {
+  background-color: #efeff2;
+  margin: 0 8px;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  min-height: 150px;
+}
+
+th {
+  color: crimson;
+  font-weight: 700;
+}
+
+.op-btn {
+  margin: 4px;
+  background-color: rgb(234, 253, 241);
+}
+
+.d-btn {
+  background-color: #d61c4e;
+  color: white;
+}
+
+.op-btn, .d-btn{
+  padding: 4px 12px;
+  cursor: pointer;
+  padding: 1px 10px;
+  box-shadow: 0px 0px 2px 1px #000000;
+  border: none;
+}
