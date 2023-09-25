@@ -24,17 +24,17 @@ Follow these steps to set up and run the project locally:
 git clone the repository
 
 The app folder is the react app, 
-go to app  folder an run ```bash npm update``` 
+go to app folder an run 
+```npm update``` 
 and then start the app by using 
-```bash 
-  npm start```
+```npm start```
 
 The server folder is the backend, 
-go to server folder and run ```bash npm update``` 
+go to server folder and run ```npm update``` 
 make sure to also install nodemone globally using 
-```bash npm -g install nodemon```
+```npm -g install nodemon```
 and then start the server by using 
-```bash npm start```
+```npm start```
 
 ## Project Status
 This project is a work in progress and requires further modification and the addition of more features. Contributions and improvements are welcome.
