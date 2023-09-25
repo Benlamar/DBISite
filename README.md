@@ -26,7 +26,8 @@ git clone the repository
 The app folder is the react app, 
 go to app  folder an run ```bash npm update``` 
 and then start the app by using 
-```bash npm start```
+```bash 
+  npm start```
 
 The server folder is the backend, 
 go to server folder and run ```bash npm update``` 
